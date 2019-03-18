@@ -1,0 +1,62 @@
+{
+  "name": "del.js",
+  "version": "0.0.0",
+  "description": "Delete files in command line.",
+  "main": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test:cov": "npm run lint && jest --coverage",
+    "test": "npm run lint && jest",
+    "lint": "xo"
+  },
+  "repository": {
+    "url": "eliatray/del.js",
+    "type": "git"
+  },
+  "author": "eliatray<944126009@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cac": "^6.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0",
+    "eslint-config-rem": "^4.0.0",
+    "prettier": "^1.15.2",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.2.0",
+    "husky": "^1.0.0-rc.13"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "xo": {
+    "extends": [
+      "rem",
+      "plugin:prettier/recommended"
+    ],
+    "envs": [
+      "jest"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "xo --fix",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
