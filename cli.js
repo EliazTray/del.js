@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 const cac = require('cac')
+const { version } = require('./package.json')
 const main = require('.')
 
 const cli = cac()
@@ -17,5 +18,5 @@ cli
   })
 
 cli.help()
-
+cli.version(version)
 cli.parse()
