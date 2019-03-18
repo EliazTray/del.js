@@ -20,7 +20,10 @@
   "author": "eliatray<944126009@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "cac": "^6.0.0"
+    "cac": "^6.0.0",
+    "chalk": "^2.4.2",
+    "globby": "^9.1.0",
+    "rimraf": "^2.6.3"
   },
   "devDependencies": {
     "xo": "^0.23.0",
