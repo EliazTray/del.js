@@ -1,5 +1,5 @@
 {
-  "name": "del.js",
+  "name": "@eliaztray/del.js",
   "version": "0.0.1",
   "description": "Delete files in command line.",
   "main": "index.js",
