@@ -1,6 +1,6 @@
 # @eliaztray/del.js
 
-[![NPM version](https://badgen.net/npm/v/@eliaztray/del.js)](https://npmjs.com/package/@eliaztray/del.js) [![NPM downloads](https://badgen.net/npm/dm/@eliaztray/del.js)](https://npmjs.com/package/@eliaztray/del.js) [![CircleCI](https://badgen.net/circleci/github/eliatray/@eliaztray/del.js/master)](https://circleci.com/gh/eliatray/@eliaztray/del.js/tree/master) [![codecov](https://codecov.io/gh/eliatray/@eliaztray/del.js/branch/master/graph/badge.svg)](https://codecov.io/gh/eliatray/@eliaztray/del.js)
+[![NPM version](https://badgen.net/npm/v/@eliaztray/del.js)](https://npmjs.com/package/@eliaztray/del.js) [![NPM downloads](https://badgen.net/npm/dm/@eliaztray/del.js)](https://npmjs.com/package/@eliaztray/del.js) [![CircleCI](https://badgen.net/circleci/github/eliaztray/@eliaztray/del.js/master)](https://circleci.com/gh/eliaztray/@eliaztray/del.js/tree/master) [![codecov](https://codecov.io/gh/eliaztray/@eliaztray/del.js/branch/master/graph/badge.svg)](https://codecov.io/gh/eliaztray/@eliaztray/del.js)
 
 ## Install
 
@@ -37,7 +37,7 @@ del.js . --force
 
 ## Author
 
-**@eliaztray/del.js** © [eliaz](https://github.com/eliatray), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by eliaz with help from contributors ([list](https://github.com/eliatray/@eliaztray/del.js/contributors)).
+**@eliaztray/del.js** © [eliaz](https://github.com/eliaztray), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by eliaz with help from contributors ([list](https://github.com/eliaztray/@eliaztray/del.js/contributors)).
 
-> [github.com/eliaztray](https://github.com/eliaztray) · GitHub [@eliaz](https://github.com/eliatray) · Twitter [@eliaztray](https://twitter.com/eliaztray)
+> [github.com/eliaztray](https://github.com/eliaztray) · GitHub [@eliaz](https://github.com/eliaztray) · Twitter [@eliaztray](https://twitter.com/eliaztray)
