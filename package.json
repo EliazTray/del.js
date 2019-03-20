@@ -22,18 +22,23 @@
   "dependencies": {
     "cac": "^6.0.0",
     "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1",
     "globby": "^9.1.0",
+    "path-type": "^4.0.0",
     "rimraf": "^2.6.3"
   },
   "devDependencies": {
-    "xo": "^0.23.0",
-    "eslint-config-rem": "^4.0.0",
-    "prettier": "^1.15.2",
     "eslint-config-prettier": "^3.3.0",
+    "eslint-config-rem": "^4.0.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "jest": "^23.6.0",
+    "execa": "^1.0.0",
+    "husky": "^1.0.0-rc.13",
+    "jest": "^24.0.0-alpha.9",
     "lint-staged": "^7.2.0",
-    "husky": "^1.0.0-rc.13"
+    "make-dir": "^2.1.0",
+    "prettier": "^1.15.2",
+    "tempy": "^0.2.1",
+    "xo": "^0.23.0"
   },
   "jest": {
     "testEnvironment": "node"
